@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		257680991B58672200DD0111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257680981B58672200DD0111 /* main.m */; };
 		2576809C1B58672200DD0111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2576809B1B58672200DD0111 /* AppDelegate.m */; };
-		2576809F1B58672200DD0111 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2576809E1B58672200DD0111 /* ViewController.m */; };
-		257680A21B58672200DD0111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257680A01B58672200DD0111 /* Main.storyboard */; };
 		257680A41B58672200DD0111 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257680A31B58672200DD0111 /* Images.xcassets */; };
-		257680A71B58672200DD0111 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257680A51B58672200DD0111 /* LaunchScreen.xib */; };
 		257680B31B58672300DD0111 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257680B21B58672300DD0111 /* QuizTests.m */; };
+		257680BF1B5879CD00DD0111 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257680BD1B5879CD00DD0111 /* QuizViewController.m */; };
+		257680C01B5879CD00DD0111 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257680BE1B5879CD00DD0111 /* QuizViewController.xib */; };
+		257680C21B587FC900DD0111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257680C11B587FC900DD0111 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +28,16 @@
 /* Begin PBXFileReference section */
 		257680931B58672200DD0111 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		257680971B58672200DD0111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		257680981B58672200DD0111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2576809A1B58672200DD0111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2576809B1B58672200DD0111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2576809D1B58672200DD0111 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2576809E1B58672200DD0111 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		257680A11B58672200DD0111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		257680A31B58672200DD0111 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		257680A61B58672200DD0111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		257680AC1B58672200DD0111 /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257680B11B58672300DD0111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257680B21B58672300DD0111 /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		257680BC1B5879CD00DD0111 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuizViewController.h; path = Quiz/QuizViewController.h; sourceTree = "<group>"; };
+		257680BD1B5879CD00DD0111 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuizViewController.m; path = Quiz/QuizViewController.m; sourceTree = "<group>"; };
+		257680BE1B5879CD00DD0111 /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QuizViewController.xib; path = Quiz/QuizViewController.xib; sourceTree = "<group>"; };
+		257680C11B587FC900DD0111 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +61,9 @@
 		2576808A1B58672200DD0111 = {
 			isa = PBXGroup;
 			children = (
+				257680BC1B5879CD00DD0111 /* QuizViewController.h */,
+				257680BD1B5879CD00DD0111 /* QuizViewController.m */,
+				257680BE1B5879CD00DD0111 /* QuizViewController.xib */,
 				257680951B58672200DD0111 /* Quiz */,
 				257680AF1B58672300DD0111 /* QuizTests */,
 				257680941B58672200DD0111 /* Products */,
@@ -83,12 +84,9 @@
 			children = (
 				2576809A1B58672200DD0111 /* AppDelegate.h */,
 				2576809B1B58672200DD0111 /* AppDelegate.m */,
-				2576809D1B58672200DD0111 /* ViewController.h */,
-				2576809E1B58672200DD0111 /* ViewController.m */,
-				257680A01B58672200DD0111 /* Main.storyboard */,
 				257680A31B58672200DD0111 /* Images.xcassets */,
-				257680A51B58672200DD0111 /* LaunchScreen.xib */,
 				257680961B58672200DD0111 /* Supporting Files */,
+				257680C11B587FC900DD0111 /* main.m */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -97,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				257680971B58672200DD0111 /* Info.plist */,
-				257680981B58672200DD0111 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,6 +165,7 @@
 				TargetAttributes = {
 					257680921B58672200DD0111 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = R9Q26MGRFH;
 					};
 					257680AB1B58672200DD0111 = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,9 +197,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257680A21B58672200DD0111 /* Main.storyboard in Resources */,
-				257680A71B58672200DD0111 /* LaunchScreen.xib in Resources */,
 				257680A41B58672200DD0111 /* Images.xcassets in Resources */,
+				257680C01B5879CD00DD0111 /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2576809F1B58672200DD0111 /* ViewController.m in Sources */,
 				2576809C1B58672200DD0111 /* AppDelegate.m in Sources */,
-				257680991B58672200DD0111 /* main.m in Sources */,
+				257680C21B587FC900DD0111 /* main.m in Sources */,
+				257680BF1B5879CD00DD0111 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +239,6 @@
 			targetProxy = 257680AD1B58672300DD0111 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		257680A01B58672200DD0111 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				257680A11B58672200DD0111 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		257680A51B58672200DD0111 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				257680A61B58672200DD0111 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		257680B41B58672300DD0111 /* Debug */ = {
@@ -349,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +338,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

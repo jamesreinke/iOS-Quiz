@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Quiz/QuizViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:../Quiz/QuizViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:../Quiz/QuizViewController.xib">
+   </FileRef>
+   <FileRef
       location = "self:Quiz.xcodeproj">
    </FileRef>
 </Workspace>
